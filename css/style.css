@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 5px;
+}
+
+.first-header__title {
+  font-size: 20px;
+}
+.navigator-list {
+  display: flex;
+  justify-content: center;
+}
+
+.navigator-list__element {
+  margin: 0 5px;
+  list-style: none;
+}
