@@ -54,7 +54,7 @@ body {
 .added-items__number-of-items {
   padding: 10px;
 }
-.products {
+.products-form {
   background-color: var(--item-list-color);
   padding: 10px;
   flex: 1;
@@ -85,4 +85,14 @@ a {
 
 a:visited {
   color: var(--main-color-text);
+}
+
+.item-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-price {
+  display: flex;
+  flex-direction: column;
 }
