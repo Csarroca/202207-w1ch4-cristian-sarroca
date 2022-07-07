@@ -4,36 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/stylesForm.css">
+    <link rel="stylesheet" href="./css/stylesForm.css" />
     <title>Formulario</title>
   </head>
   <body>
-
-      <header class="first-header">
-        <h1 class="first-header__title">Lista de la compra</h1>
-        <nav class="navigator">
-          <ul class="navigator-list">
-            <li class="navigator-list__element">Principal</li>
-            <li class="navigator-list__element">Lista</li>
-            <li class="navigator-list__element">Acerca de</li>
-          </ul>
-        </nav>
-      </header>
+    <header class="first-header">
+      <h1 class="first-header__title">Lista de la compra</h1>
+      <nav class="navigator">
+        <ul class="navigator-list">
+          <li class="navigator-list__element">Principal</li>
+          <li class="navigator-list__element">Lista</li>
+          <li class="navigator-list__element">Acerca de</li>
+        </ul>
+      </nav>
+    </header>
     <main class="container">
-  
       <section class="added-items">
         <div class="added-items__icon">
-          <a href="index.html">           <i class="fa-solid fa-circle-minus"></i> 
-</a>
+          <a href="index.html"> <i class="fa-solid fa-circle-minus"></i> </a>
         </div>
         <span class="added-items__number-of-items"> 2/3 comprados</span>
       </section>
+
+      <section class="products-form">
+        <form>
+          <h3>Editar artículo</h3>
+          <ul class="form-list">
+            <li class="item-name">
+              <label for="name">Nombre:</label>
+              <input class="item-box" type="text" id="name" name="user_name" />
+            </li>
+            <li class="item-price">
+              <label for="price">Precio:</label>
+              <input
+                class="price-box"
+                type="number"
+                id="price"
+                name="item-price"
+              />
+              <span>€</span>
+            </li>
+          </ul>
+          <button class="button-modifier">Modificar</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
