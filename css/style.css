@@ -13,11 +13,12 @@ body {
 .first-header {
   display: flex;
   justify-content: space-between;
-  margin: 0 0 0 5px;
+  background-color: blue;
 }
 
 .first-header__title {
-  font-size: 20px;
+  font-size: 1rem;
+  margin: 10px 0 0 5px;
 }
 .navigator-list {
   display: flex;
@@ -25,6 +26,7 @@ body {
 }
 
 .navigator-list__element {
-  margin: 0 5px;
+  margin: 0 5px 0 0;
   list-style: none;
+  font-size: 0.7rem;
 }
