@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.first-header__title {
+  font-size: 1rem;
+  margin: 10px 0 0 5px;
+}
+.navigator-list {
+  display: flex;
+  justify-content: center;
+}
+
+.navigator-list__element {
+  margin: 0 5px 0 0;
+  list-style: none;
+  font-size: 0.7rem;
+}
