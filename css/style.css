@@ -47,3 +47,11 @@ body {
 .added-items__number-of-items {
   padding: 10px;
 }
+.prducts {
+  background-color: var(--added-items-pcolor);
+}
+
+.items-list {
+  margin: 0;
+  padding: 0;
+}
