@@ -28,7 +28,9 @@
     <main class="container">
       <section class="added-items">
         <div class="added-items__icon">
-          <a href="index.html"> <i class="fa-solid fa-circle-minus"></i> </a>
+          <a href="index.html">
+            <i class="fa-solid fa-circle-minus">minus</i>
+          </a>
         </div>
         <span class="added-items__number-of-items"> 2/3 comprados</span>
       </section>
@@ -43,16 +45,18 @@
             </li>
             <li class="item-price">
               <label for="price">Precio:</label>
-              <input
-                class="price-box"
-                type="number"
-                id="price"
-                name="item-price"
-              />
-              <span>€</span>
+              <div>
+                <input
+                  class="price-box"
+                  type="number"
+                  id="price"
+                  name="item-price"
+                />
+                <span>€</span>
+              </div>
             </li>
           </ul>
-          <button class="button-modifier">Modificar</button>
+          <button type="button" class="button-modifier">Modificar</button>
         </form>
       </section>
     </main>
