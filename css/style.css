@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  height: 100vh;
 }
 
 .first-header {
@@ -25,6 +26,12 @@ body {
 .first-header__title {
   font-size: 1rem;
   margin: 10px 0 0 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .navigator-list {
   display: flex;
@@ -47,11 +54,27 @@ body {
 .added-items__number-of-items {
   padding: 10px;
 }
-.prducts {
-  background-color: var(--added-items-pcolor);
+.products {
+  background-color: var(--item-list-color);
+  padding: 10px;
+  flex: 1;
 }
 
 .items-list {
   margin: 0;
   padding: 0;
+}
+
+.items-list__added {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-solid.fa-xmark {
+  font-size: 1rem;
+}
+
+.total-price {
+  text-align: right;
 }
