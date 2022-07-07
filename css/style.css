@@ -1,3 +1,9 @@
+:root {
+  --menu-color: #5e75d1;
+  --main-color-text: #212529;
+  --added-items-pcolor: #f97400;
+  --item-list-color: #ff8d26;
+}
 * {
   box-sizing: border-box;
 }
@@ -13,7 +19,7 @@ body {
 .first-header {
   display: flex;
   justify-content: space-between;
-  background-color: blue;
+  background-color: var(--menu-color);
 }
 
 .first-header__title {
@@ -29,4 +35,15 @@ body {
   margin: 0 5px 0 0;
   list-style: none;
   font-size: 0.7rem;
+}
+.added-items {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--added-items-pcolor);
+}
+.added-items__icon {
+  padding: 10px;
+}
+.added-items__number-of-items {
+  padding: 10px;
 }
