@@ -36,16 +36,23 @@
       <section class="products-form">
         <form>
           <h3>Editar artículo</h3>
-          <ul>
+          <ul class="form-list">
             <li class="item-name">
               <label for="name">Nombre:</label>
-              <input type="text" id="name" name="user_name" />
+              <input class="item-box" type="text" id="name" name="user_name" />
             </li>
             <li class="item-price">
               <label for="price">Precio:</label>
-              <input type="number" id="price" name="item-price" required />
+              <input
+                class="price-box"
+                type="number"
+                id="price"
+                name="item-price"
+              />
+              <span>€</span>
             </li>
           </ul>
+          <button class="button-modifier">Modificar</button>
         </form>
       </section>
     </main>
