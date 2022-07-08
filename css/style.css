@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--menu-color);
+  padding: 10px;
 }
 
 .first-header__title {
@@ -44,6 +45,7 @@ body {
   font-size: 0.7rem;
 }
 .added-items {
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   background-color: var(--added-items-pcolor);
